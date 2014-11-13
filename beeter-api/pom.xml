@@ -48,6 +48,27 @@
             <groupId>org.glassfish.jersey.media</groupId>
             <artifactId>jersey-media-moxy</artifactId>
         </dependency>
+        <dependency>
+        	<groupId>mysql</groupId>
+        	<artifactId>mysql-connector-java</artifactId>
+        	<version>5.1.33</version>
+        </dependency>
+        <dependency>
+        	<groupId>org.glassfish.jersey.ext</groupId>
+        	<artifactId>jersey-declarative-linking</artifactId>
+        	<version>2.13</version>
+        </dependency>
+        <dependency>
+        	<groupId>com.thetransactioncompany</groupId>
+        	<artifactId>cors-filter</artifactId>
+        	<version>1.9.3</version>
+        </dependency>
+      
+        <dependency>
+        	<groupId>commons-codec</groupId>
+        	<artifactId>commons-codec</artifactId>
+        	<version>1.9</version>
+        </dependency>
     </dependencies>
     <properties>
         <jersey.version>2.13</jersey.version>

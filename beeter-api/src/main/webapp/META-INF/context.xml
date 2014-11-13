@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+	<Resource name="jdbc/beeterdb" auth="Container" type="javax.sql.DataSource"
+		maxActive="10" maxIdle="5" username="beeter" password="beeter"
+		driverClassName="com.mysql.jdbc.Driver"
+		url="jdbc:mysql://localhost:3306/beeterdb?autoReconnect=true" />
+	<Realm className="org.apache.catalina.realm.DataSourceRealm"
+			dataSourceName="jdbc/beeterdb" localDataSource="true" digest="MD5"
+			userTable="users" userNameCol="username" userCredCol="userpass"
+			userRoleTable="user_roles" roleNameCol="rolename" />
+
+		
+</Context>
